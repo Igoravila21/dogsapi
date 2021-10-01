@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    font-weight: bold;
+    color: #131313;
+    background-color: #7381e7;
+}
+body div {
+    display: flex;
+    justify-content: space-between;
+}
+body div div {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 500px;
+    margin-left: 40px;
+}
+#tabela, tr, td {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+table {
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+
+table thead tr td {
+    text-transform: uppercase;
+}
+#img {
+    width: 320px;
+    height: 320px;
+    border-radius: 6px;
+}
+#foto_aleatoria {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    height: 100%;
+}
+
+
